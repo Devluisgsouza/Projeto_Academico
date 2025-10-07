@@ -38,13 +38,13 @@ O CALLME fornecerá um sistema intuitivo e automatizado, utilizando a IA (Inteli
 
 ## 🛠 Ferramentas
 
-- [Nome](link)
-
+- [Astah](https://astah.net/products/astah-uml/)
+- [PyQT6](https://pypi.org/project/PyQt6/)
 
 
 ## 🗒️ Modelagem de Requisitos
 
-- [Diagramas](link)
+- [Diagramas](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/Diagrama_de_caso_de_uso.asta)
 
 
 
