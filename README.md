@@ -19,11 +19,11 @@ O CALLME fornecerá um sistema intuitivo e automatizado, utilizando a IA (Inteli
 
 | Rank | Prioridade | User Story                                                                                                                                                                                                     | Sprint | Status |
 | :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :----: |
-|   1  |    Média    | Como funcionário, quero que eu possa criar e visualizar chamados.                                                                                                                                              |    2   |    🔄   |
-|   2  |    Alta    | Como Administrador, quero que tanto funcionário quanto técnico tenham acesso com sua própria conta.                                                                                                            |    1   |    🔄   |
+|   1  |    Média    | Como funcionário, quero que eu possa criar e visualizar chamados.                                                                                                                                              |    2   |    ✅   |
+|   2  |    Alta    | Como Administrador, quero que tanto funcionário quanto técnico tenham acesso com sua própria conta.                                                                                                            |    1   |    ✅   |
 |   3  |    Alta    | Como Administrador, quero que tenha um chat com a IA integrada para resolver chamados simples.                                                                                                                 |    3   |    🔄   |
 |   4  |    Média    | Como técnico, quero que eu possa visulaizar quantos chamados tem para iniciar e os que ja foram realizados.                                                                                                    |    3   |    🔄   |
-|   5  |    Média    | Como Administrador, quero que os funcionários e os técnicos possam visulizar seus dados pessoais.                                                                                                              |    2   |    🔄   |
+|   5  |    Média    | Como Administrador, quero que os funcionários e os técnicos possam visulizar seus dados pessoais.                                                                                                              |    2   |    ✅   |
 
 ---
 
