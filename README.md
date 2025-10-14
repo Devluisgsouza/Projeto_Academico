@@ -32,8 +32,8 @@ O CALLME fornecerá um sistema intuitivo e automatizado, utilizando a IA (Inteli
 | Sprint          |    Período    | Documentação                                     |
 | --------------- | :-----------: | ------------------------------------------------ |
 | 🔖 **SPRINT 1** | 15/09 - 30/09 | [Sprint 1 Docs](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/sprints/sprint1.docx) |
-| 🔖 **SPRINT 2** | 01/10 - 15/10 | [Sprint 2 Docs](link) |
-| 🔖 **SPRINT 3** | 16/10 - 31/10 | [Sprint 3 Docs](link) |
+| 🔖 **SPRINT 2** | 01/10 - 15/10 | [Sprint 2 Docs](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/sprints/sprint2.docx) |
+| 🔖 **SPRINT 3** | 16/10 - 31/10 | [Sprint 3 Docs](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/sprints/sprint3.docx) |
 
 
 ## 🛠 Ferramentas
