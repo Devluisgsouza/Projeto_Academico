@@ -84,7 +84,7 @@ Para ver o backlog do produto, acesse: [Backlog do Produto](https://github.com/D
 
 ---
 ## 📈 Cronograma de Evolução
-Para ver o cronograma de evolução, acesse: [Cronograma de Evolução]()
+Para ver o cronograma de evolução, acesse: [Cronograma de Evolução](https://github.com/Devluisgsouza/Cronograma-Evolucao/blob/main/README.md)
 
 ---
 ## 📅 Tabela das Sprints
