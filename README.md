@@ -1,7 +1,7 @@
 <h1 align="center">
-  <img src='https://raw.githubusercontent.com/endlymelo/AtividadeEgydioIndividual.4ADS/refs/heads/main/logoCallmeapp%20(1).png'>
+  <img src='https://github.com/Devluisgsouza/Projeto_Academico/blob/main/src/img/logo.png'>
   <br>
-  Callme App
+  Callme
 </h1>
 
 <p align="center">🚀 O futuro do atendimento com inteligência artificial</p>
