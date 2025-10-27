@@ -1,51 +1,157 @@
-# CALLME
+<h1 align="center">
+  <img src='https://raw.githubusercontent.com/endlymelo/AtividadeEgydioIndividual.4ADS/refs/heads/main/logoCallmeapp%20(1).png'>
+  <br>
+  Callme App
+</h1>
 
-## 📕 Sobre 
+<p align="center">🚀 O futuro do atendimento com inteligência artificial</p>
 
-**CALLME** é um software utilizado para gerenciar chamados de suporte técnico, realizados por funcionários de uma empresa, os funcionários criam chamados através do software, primeiramente a IA (Inteligência Artificial) recebe o chamado e apresenta uma solução prévia ao funcionário, caso não resolva, encaminha o chamado ao técnico responsável na área.
+<div align="center">
 
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
+[![License](https://img.shields.io/badge/license-MIT-green)]()
+[![React Native](https://img.shields.io/badge/React%20Native-0.72-blue)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-✓-3178C6)]()
 
-## 🏅 Desafio <a id="desafio"></a>
-
-O desafio consiste em criar um software que automatize o gerenciamento de chamados técnicos internos de uma empresa, fazendo com que sejam solucionados com mais rapidez e facilidade. gerando menos gasto de tempo e aumentando a produtividade dos funcionários.
-
-## 🏅 Solução <a id="solucao"></a>
-
-O CALLME fornecerá um sistema intuitivo e automatizado, utilizando a IA (Inteligência Artificial) como auxiliadora na solução de chamdos simples e no direcionamento dos mais complexos, facilitando tanto o trabalho do funcionário como o do técnico. 
-
----
-
-## 📋 Backlog do Produto <a id="backlog"></a>
-
-| Rank | Prioridade | User Story                                                                                                                                                                                                     | Sprint | Status |
-| :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | :----: |
-|   1  |    Média    | Como funcionário, quero que eu possa criar e visualizar chamados.                                                                                                                                              |    2   |    ✅   |
-|   2  |    Alta    | Como Administrador, quero que tanto funcionário quanto técnico tenham acesso com sua própria conta.                                                                                                            |    1   |    ✅   |
-|   3  |    Alta    | Como Administrador, quero que tenha um chat com a IA integrada para resolver chamados simples.                                                                                                                 |    3   |    🔄   |
-|   4  |    Média    | Como técnico, quero que eu possa visulaizar quantos chamados tem para iniciar e os que ja foram realizados.                                                                                                    |    3   |    🔄   |
-|   5  |    Média    | Como Administrador, quero que os funcionários e os técnicos possam visulizar seus dados pessoais.                                                                                                              |    2   |    ✅   |
+</div>
 
 ---
 
-## 📅 Cronograma de Sprints <a id="sprint"></a>
+## 📖 Sobre o Projeto  
 
-| Sprint          |    Período    | Documentação                                     |
-| --------------- | :-----------: | ------------------------------------------------ |
-| 🔖 **SPRINT 1** | 15/09 - 30/09 | [Sprint 1 Docs](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/sprints/sprint1.docx) |
-| 🔖 **SPRINT 2** | 01/10 - 15/10 | [Sprint 2 Docs](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/sprints/sprint2.docx) |
-| 🔖 **SPRINT 3** | 16/10 - 31/10 | [Sprint 3 Docs](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/sprints/sprint3.docx) |
+O **Callme App** é um aplicativo mobile para **abertura e gerenciamento de chamados** por funcionários para a assistência técnica, com suporte integrado de **IA**.  
+
+🔹 Funcionários abrem chamados no app.  
+🔹 A **IA** recebe o chamado e sugere uma solução imediata.  
+🔹 Caso não seja resolvido, o chamado é **encaminhado automaticamente ao técnico responsável**.  
+
+O desenvolvimento foi feito com **React Native + TypeScript**, utilizando **Scrum** como metodologia ágil.
+
+> 🎯 Motivação: A ideia surgiu devido à insatisfação com softwares existentes que não oferecem integração com inteligência artificial.  
+
+---
+## 🧠 Resumo do Desafio
+
+O CallMe App nasceu para resolver a dificuldade da empresa parceira em gerenciar e acompanhar chamados técnicos de forma eficiente. O processo manual gerava atrasos, falhas de comunicação e retrabalho.
+Com o uso de Inteligência Artificial, o sistema automatiza a classificação dos chamados e sugere soluções, oferecendo agilidade, organização e inteligência operacional em plataformas desktop, web e mobile.
+
+---
+
+## 📋 Definition of Ready (DoR)
+
+Um item ou sprint é considerado **pronto para início** quando atende aos seguintes critérios:
+
+1. 🧾 **Descrição clara e completa**  
+   A história de usuário ou tarefa está bem detalhada, com objetivo, contexto e critérios de aceitação definidos.
+
+2. ⚙️ **Critérios de aceitação documentados**  
+   Todos os critérios foram revisados e compreendidos pela equipe de desenvolvimento.
+
+3. ⏱️ **Estimativa aprovada**  
+   A tarefa foi estimada e incluída no sprint backlog de forma coerente com a capacidade da equipe.
+
+4. 🔗 **Dependências identificadas**  
+   Todas as dependências externas (APIs, integrações, dados ou pessoas) foram mapeadas e têm solução planejada.
+
+5. 🚫 **Sem bloqueios críticos**  
+   O item está livre de impedimentos que possam atrasar o desenvolvimento.
+
+---
+
+## ✅ Definition of Done (DoD)
+
+Uma tarefa ou história de usuário é considerada **concluída** quando cumpre todos os pontos abaixo:
+
+1. 💻 **Código implementado e versionado**  
+   O código está commitado no repositório correto e passou por revisão (pull request aprovado).
+
+2. 🧠 **Critérios de aceitação atendidos**  
+   A funcionalidade cumpre integralmente o que foi definido no início da tarefa.
+
+3. 🧪 **Testes realizados e aprovados**  
+   Inclui testes unitários, de integração e/ou manuais com sucesso comprovado.
+
+4. 🧾 **Documentação atualizada**  
+   README, comentários e instruções foram ajustados conforme a nova entrega.
+
+5. 👁️ **Interface validada (quando aplicável)**  
+   Layout e experiência de uso revisados, sem falhas visuais ou de navegação.
+
+---
+
+##  📋 Backlog do Produto
+Para ver o backlog do produto, acesse: [Backlog do Produto](https://github.com/Devluisgsouza/Backlog-Produto)
+
+---
+## 📈 Cronograma de Evolução
+Para ver o cronograma de evolução, acesse: [Cronograma de Evolução]()
+
+---
+## 📅 Tabela das Sprints
+Para ver o tabela das sprints, acesse: [Tabela das Sprints](https://github.com/Devluisgsouza/Tabela-Sprints)
+
+---
+
+## 🛠️ Tecnologias Utilizadas  
+
+- [React Native](https://reactnative.dev/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Node.js](https://nodejs.org/pt)  
+- [Android Studio](https://developer.android.com/studio)  
+- [Astah UML](https://astah.net/products/astah-uml/)  
+- [Trello](https://trello.com/)  
+
+---
+
+## 📂 Estrutura do Repositório  
+
+- */Callme/Modelagem_de_Requisitos* → Diagramas, backlog, casos de uso  
+- */Callme/PIM* → Documentação acadêmica (PIM 3º semestre)  
+- */Callme/code* → Código-fonte do app  
+
+---
+
+## 🗒 Documentação  
+
+- [📌 Diagramas UML](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/Modelagem_de_Requisitos/Diagrama_de_caso_de_uso_sistema.asta.lock)
+- [📌 Sprint Backlog](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/Modelagem_de_Requisitos/Sprints_Backlog.docx)
+- [📌 Casos de Uso](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/Modelagem_de_Requisitos/Descri%C3%A7%C3%A3o_caso_de_uso.docx)  
+- [📌 Documentação Completa](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/PIM/PIM%203%20SEMESTRE.doc)  
 
 
-## 🛠 Ferramentas
 
-- [Astah](https://astah.net/products/astah-uml/)
-- [PyQT6](https://pypi.org/project/PyQt6/)
+---
 
+## 🚀 Como Rodar o Projeto  
 
-## 🗒️ Modelagem de Requisitos
+### Pré-requisitos  
+- [Android Studio](https://developer.android.com/studio)  
+- [Node.js](https://nodejs.org/pt)  
+- [Expo CLI](https://expo.dev/)  
 
-- [Diagramas](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/Diagrama_de_caso_de_uso.asta)
+### Passo a passo  
 
+```bash
+# Clone o projeto
+$ git clone https://github.com/Devluisgsouza/Callme_App.git 
 
+# Entre no diretório
+$ cd Callme/code
 
+# Instale as dependências
+$ npm install
 
+# Instale o Expo CLI (caso não tenha)
+$ npm install -g expo-cli
+
+# Inicie o projeto
+$ npx expo start
+
+```bash
+    # Conectar o código ao emulador android
+    $ npm run android
+```
+
+## Devs do Projeto
+
+<table> <tr> <td align="center"> <a href="https://github.com/Devluisgsouza"> <img src="https://avatars.githubusercontent.com/u/175893858?v=4" width="100px;" alt="Luis Souza"/> <br /> <sub><b>Luis Souza</b></sub> </a> <br /> <a href="https://github.com/Devluisgsouza">🔗 GitHub </a> </td> <td align="center"> <a href="https://github.com/Felipe00702"> <img src="https://avatars.githubusercontent.com/u/205240478?v=4" width="100px;" alt="Felipe Silva"/> <br /> <sub><b>Felipe Silva</b></sub> </a> <br /> <a href="https://github.com/Felipe00702">🔗 GitHub</a> </td> <td align="center"> <a href="https://github.com/Nilo40"> <img src="https://avatars.githubusercontent.com/u/112767071?v=4" width="100px;" alt="Danilo Alves"/> <br /> <sub><b>Danilo Alves</b></sub> </a> <br /> <a href="https://github.com/Nilo40">🔗 GitHub</a> </td> <td align="center"> <a href="https://github.com/endlymelo"> <img src="https://avatars.githubusercontent.com/u/202872646?v=4" width="100px;" alt="Endly Melo"/> <br /> <sub><b>Endly Melo</b></sub> </a> <br /> <a href="https://github.com/endlymelo">🔗 GitHub</a> </td> <td align="center"> <a href="https://github.com/caiogoulart1"> <img src="https://avatars.githubusercontent.com/u/205272622?v=4" width="100px;" alt="Caio Goulart"/> <br /> <sub><b>Caio Goulart</b></sub> </a> <br /> <a href="https://github.com/caiogoulart1">🔗 GitHub</a> </td> <td align="center"> <a href="https://github.com/TheVarella"> <img src="https://avatars.githubusercontent.com/u/95414997?v=4" width="100px;" alt="Gustavo Varella"/> <br /> <sub><b>Gustavo Varella</b></sub> </a> <br /> <a href="https://github.com/TheVarella">🔗 GitHub</a> </tr> </table>
