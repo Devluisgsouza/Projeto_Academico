@@ -156,3 +156,10 @@ Uma tarefa ou história de usuário é considerada **concluída** quando cumpre 
 
 5. 👁️ **Interface validada (quando aplicável)**  
    Layout e experiência de uso revisados, sem falhas visuais ou de navegação.
+
+---
+
+
+## 🗒 Manual do Sistema 
+
+- [📌 Manual do Sistema](https://github.com/Devluisgsouza/Manual-Sistema/blob/main/Manual%20do%20Sistema%20-%20CallMe.docx)
