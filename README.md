@@ -115,7 +115,6 @@ Para ver o tabela das sprints, acesse: [Tabela das Sprints](https://github.com/D
 
 - [📌 Diagramas UML](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/Modelagem_de_Requisitos/Diagrama_de_caso_de_uso_sistema.asta.lock)
 - [📌 Sprint Backlog](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/Modelagem_de_Requisitos/Sprints_Backlog.docx)
-- [📌 Casos de Uso](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/Modelagem_de_Requisitos/Descri%C3%A7%C3%A3o_caso_de_uso.docx)  
 - [📌 Documentação Completa](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/PIM/PIM%203%20SEMESTRE.doc)  
 
 
