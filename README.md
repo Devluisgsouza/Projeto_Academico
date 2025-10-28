@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src='https://github.com/Devluisgsouza/Projeto_Academico/blob/main/src/img/logo.png'>
+  <img src='src/img/icone.icon.png'>
   <br>
   Callme
 </h1>
