@@ -37,6 +37,86 @@ Com o uso de Inteligência Artificial, o sistema automatiza a classificação do
 
 ---
 
+
+##  📋 Backlog do Produto
+Para ver o backlog do produto, acesse: [Backlog do Produto](https://github.com/Devluisgsouza/Backlog-Produto)
+
+---
+## 📈 Cronograma de Evolução
+Para ver o cronograma de evolução, acesse: [Cronograma de Evolução](https://github.com/Devluisgsouza/Cronograma-Evolucao/blob/main/README.md)
+
+---
+## 📅 Tabela das Sprints
+Para ver o tabela das sprints, acesse: [Tabela das Sprints](https://github.com/Devluisgsouza/Tabela-Sprints)
+
+---
+
+## 🛠️ Tecnologias Utilizadas  
+
+- [React Native](https://reactnative.dev/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Node.js](https://nodejs.org/pt)  
+- [Android Studio](https://developer.android.com/studio)  
+- [Astah UML](https://astah.net/products/astah-uml/)  
+- [Trello](https://trello.com/)  
+
+---
+
+## 📂 Estrutura do Repositório  
+
+- */Callme/Modelagem_de_Requisitos* → Diagramas, backlog, casos de uso  
+- */Callme/PIM* → Documentação acadêmica (PIM 3º semestre)  
+- */Callme/code* → Código-fonte do app  
+
+
+
+---
+
+## 🚀 Como Rodar o Projeto  
+
+### Pré-requisitos  
+- [Android Studio](https://developer.android.com/studio)  
+- [Node.js](https://nodejs.org/pt)  
+- [Expo CLI](https://expo.dev/)  
+
+### Passo a passo  
+
+```bash
+# Clone o projeto
+$ git clone https://github.com/Devluisgsouza/Callme_App.git 
+
+# Entre no diretório
+$ cd Callme/code
+
+# Instale as dependências
+$ npm install
+
+# Instale o Expo CLI (caso não tenha)
+$ npm install -g expo-cli
+
+# Inicie o projeto
+$ npx expo start
+
+```bash
+    # Conectar o código ao emulador android
+    $ npm run android
+```
+
+---
+
+## 🗒 Documentação  
+
+- [📌 Diagramas UML](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/Diagramas_UML.asta)
+- [📌 Sprint Backlog](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/Modelagem_de_Requisitos/Sprints_Backlog.docx)
+- [📌 Documentação Completa](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/PIM/PIM%203%20SEMESTRE.doc)  
+
+
+
+## Devs do Projeto
+
+<table> <tr> <td align="center"> <a href="https://github.com/Devluisgsouza"> <img src="https://avatars.githubusercontent.com/u/175893858?v=4" width="100px;" alt="Luis Souza"/> <br /> <sub><b>Luis Souza</b></sub> </a> <br /> <a href="https://github.com/Devluisgsouza">🔗 GitHub </a> </td> <td align="center"> <a href="https://github.com/Felipe00702"> <img src="https://avatars.githubusercontent.com/u/205240478?v=4" width="100px;" alt="Felipe Silva"/> <br /> <sub><b>Felipe Silva</b></sub> </a> <br /> <a href="https://github.com/Felipe00702">🔗 GitHub</a> </td> <td align="center"> <a href="https://github.com/Nilo40"> <img src="https://avatars.githubusercontent.com/u/112767071?v=4" width="100px;" alt="Danilo Alves"/> <br /> <sub><b>Danilo Alves</b></sub> </a> <br /> <a href="https://github.com/Nilo40">🔗 GitHub</a> </td> <td align="center"> <a href="https://github.com/endlymelo"> <img src="https://avatars.githubusercontent.com/u/202872646?v=4" width="100px;" alt="Endly Melo"/> <br /> <sub><b>Endly Melo</b></sub> </a> <br /> <a href="https://github.com/endlymelo">🔗 GitHub</a> </td> <td align="center"> <a href="https://github.com/caiogoulart1"> <img src="https://avatars.githubusercontent.com/u/205272622?v=4" width="100px;" alt="Caio Goulart"/> <br /> <sub><b>Caio Goulart</b></sub> </a> <br /> <a href="https://github.com/caiogoulart1">🔗 GitHub</a> </td> <td align="center"> <a href="https://github.com/TheVarella"> <img src="https://avatars.githubusercontent.com/u/95414997?v=4" width="100px;" alt="Gustavo Varella"/> <br /> <sub><b>Gustavo Varella</b></sub> </a> <br /> <a href="https://github.com/TheVarella">🔗 GitHub</a> </tr> </table>
+
+
 ## 📋 Definition of Ready (DoR)
 
 Um item ou sprint é considerado **pronto para início** quando atende aos seguintes critérios:
@@ -76,81 +156,3 @@ Uma tarefa ou história de usuário é considerada **concluída** quando cumpre 
 
 5. 👁️ **Interface validada (quando aplicável)**  
    Layout e experiência de uso revisados, sem falhas visuais ou de navegação.
-
----
-
-##  📋 Backlog do Produto
-Para ver o backlog do produto, acesse: [Backlog do Produto](https://github.com/Devluisgsouza/Backlog-Produto)
-
----
-## 📈 Cronograma de Evolução
-Para ver o cronograma de evolução, acesse: [Cronograma de Evolução](https://github.com/Devluisgsouza/Cronograma-Evolucao/blob/main/README.md)
-
----
-## 📅 Tabela das Sprints
-Para ver o tabela das sprints, acesse: [Tabela das Sprints](https://github.com/Devluisgsouza/Tabela-Sprints)
-
----
-
-## 🛠️ Tecnologias Utilizadas  
-
-- [React Native](https://reactnative.dev/)  
-- [TypeScript](https://www.typescriptlang.org/)  
-- [Node.js](https://nodejs.org/pt)  
-- [Android Studio](https://developer.android.com/studio)  
-- [Astah UML](https://astah.net/products/astah-uml/)  
-- [Trello](https://trello.com/)  
-
----
-
-## 📂 Estrutura do Repositório  
-
-- */Callme/Modelagem_de_Requisitos* → Diagramas, backlog, casos de uso  
-- */Callme/PIM* → Documentação acadêmica (PIM 3º semestre)  
-- */Callme/code* → Código-fonte do app  
-
----
-
-## 🗒 Documentação  
-
-- [📌 Diagramas UML](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/Diagramas_UML.asta)
-- [📌 Sprint Backlog](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/Modelagem_de_Requisitos/Sprints_Backlog.docx)
-- [📌 Documentação Completa](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/PIM/PIM%203%20SEMESTRE.doc)  
-
-
-
----
-
-## 🚀 Como Rodar o Projeto  
-
-### Pré-requisitos  
-- [Android Studio](https://developer.android.com/studio)  
-- [Node.js](https://nodejs.org/pt)  
-- [Expo CLI](https://expo.dev/)  
-
-### Passo a passo  
-
-```bash
-# Clone o projeto
-$ git clone https://github.com/Devluisgsouza/Callme_App.git 
-
-# Entre no diretório
-$ cd Callme/code
-
-# Instale as dependências
-$ npm install
-
-# Instale o Expo CLI (caso não tenha)
-$ npm install -g expo-cli
-
-# Inicie o projeto
-$ npx expo start
-
-```bash
-    # Conectar o código ao emulador android
-    $ npm run android
-```
-
-## Devs do Projeto
-
-<table> <tr> <td align="center"> <a href="https://github.com/Devluisgsouza"> <img src="https://avatars.githubusercontent.com/u/175893858?v=4" width="100px;" alt="Luis Souza"/> <br /> <sub><b>Luis Souza</b></sub> </a> <br /> <a href="https://github.com/Devluisgsouza">🔗 GitHub </a> </td> <td align="center"> <a href="https://github.com/Felipe00702"> <img src="https://avatars.githubusercontent.com/u/205240478?v=4" width="100px;" alt="Felipe Silva"/> <br /> <sub><b>Felipe Silva</b></sub> </a> <br /> <a href="https://github.com/Felipe00702">🔗 GitHub</a> </td> <td align="center"> <a href="https://github.com/Nilo40"> <img src="https://avatars.githubusercontent.com/u/112767071?v=4" width="100px;" alt="Danilo Alves"/> <br /> <sub><b>Danilo Alves</b></sub> </a> <br /> <a href="https://github.com/Nilo40">🔗 GitHub</a> </td> <td align="center"> <a href="https://github.com/endlymelo"> <img src="https://avatars.githubusercontent.com/u/202872646?v=4" width="100px;" alt="Endly Melo"/> <br /> <sub><b>Endly Melo</b></sub> </a> <br /> <a href="https://github.com/endlymelo">🔗 GitHub</a> </td> <td align="center"> <a href="https://github.com/caiogoulart1"> <img src="https://avatars.githubusercontent.com/u/205272622?v=4" width="100px;" alt="Caio Goulart"/> <br /> <sub><b>Caio Goulart</b></sub> </a> <br /> <a href="https://github.com/caiogoulart1">🔗 GitHub</a> </td> <td align="center"> <a href="https://github.com/TheVarella"> <img src="https://avatars.githubusercontent.com/u/95414997?v=4" width="100px;" alt="Gustavo Varella"/> <br /> <sub><b>Gustavo Varella</b></sub> </a> <br /> <a href="https://github.com/TheVarella">🔗 GitHub</a> </tr> </table>
