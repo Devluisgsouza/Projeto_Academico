@@ -107,7 +107,7 @@ $ npx expo start
 ## 🗒 Documentação  
 
 - [📌 Diagramas UML](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/src/Diagramas/Diagramas_UML.asta)
-- [📌 Sprint Backlog](https://github.com/TheVarella/Sprint-1-Egydio/blob/main/AtividadeEgydio/AtividadeEgydio-main/Callme/Modelagem_de_Requisitos/Sprints_Backlog.docx)
+- [📌 Sprint Backlog](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/src/Documenta%C3%A7%C3%A3o/Sprints_Backlog.docx)
 - [📌 Documentação Completa](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/src/Documentação/PIM_4.doc)  
 
 
