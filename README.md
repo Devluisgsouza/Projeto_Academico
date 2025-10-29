@@ -83,7 +83,13 @@ Para ver o tabela das sprints, acesse: [Tabela das Sprints](https://github.com/D
 
 ```bash
 # Clone o projeto
-$ git clone https://github.com/Devluisgsouza/Projeto_Academico.git 
+$ git clone https://github.com/Devluisgsouza/Projeto_Academico.git
+
+# Abra o VScode
+
+# Abra o projeto clonado no seu PC
+
+# Abra o terminal
 
 # Entre no diretório
 $ cd Callme/code
@@ -94,13 +100,8 @@ $ npm install
 # Instale o Expo CLI (caso não tenha)
 $ npm install -g expo-cli
 
-# Inicie o projeto
-$ npx expo start
-
-```bash
-    # Conectar o código ao emulador android
-    $ npm run android
 ```
+
 
 ---
 
