@@ -5,6 +5,7 @@ import CustomTecnicoTabBar from "../components/CustomTecnicoTabBar";
 import Menu_Tecnico from "../pages/menu_tecnico";
 import Visualizar_chamados_tecnico from "../pages/cahamados_tecnico";
 import Atender_chamados from "../pages/atender_chamado";
+import Criar_chamado from "../pages/criar_chamado";
 
 
 const tab = createBottomTabNavigator();
@@ -20,6 +21,10 @@ export default function BottomTecnicoRoutes(){
             <tab.Screen 
                 name="Menu_tecnico" 
                 component={Menu_Tecnico}
+                />
+            <tab.Screen 
+                name="Criar_chamado" 
+                component={Criar_chamado}
                 />
             <tab.Screen 
                 name="chamados_tecnico" 
