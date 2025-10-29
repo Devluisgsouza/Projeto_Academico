@@ -52,11 +52,12 @@ export default function Menu(){
             </View>
 
             <View style={style.boxFinal}>
-                <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
                     <ButtonMenu text="VISUALIZAR CHAMADOS" onPress={() => chamados()} />
                     <ButtonMenu text="PERFIL" onPress={() => perfil()} />
                 </View>
                 <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
+                    <ButtonMenu text="CRiAR CHAMADO" onPress={() => criar_chamado()} />
                     <ButtonMenu text="SAIR" onPress={() => sair()} />
                 </View>
             </View>
