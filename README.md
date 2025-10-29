@@ -83,7 +83,7 @@ Para ver o tabela das sprints, acesse: [Tabela das Sprints](https://github.com/D
 
 ```bash
 # Clone o projeto
-$ git clone https://github.com/Devluisgsouza/Callme_App.git 
+$ git clone https://github.com/Devluisgsouza/Projeto_Academico.git 
 
 # Entre no diretório
 $ cd Callme/code
