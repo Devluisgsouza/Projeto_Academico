@@ -64,9 +64,10 @@ Para ver o tabela das sprints, acesse: [Tabela das Sprints](https://github.com/D
 
 ## 📂 Estrutura do Repositório  
 
-- */Callme/Modelagem_de_Requisitos* → Diagramas, backlog, casos de uso  
-- */Callme/PIM* → Documentação acadêmica (PIM 3º semestre)  
-- */Callme/code* → Código-fonte do app  
+- */Projeto_Academico\src\Diagramas\Diagramas_UML.asta* → Diagramas UML
+- */Projeto_Academico\src\Documentação\Sprints_Backlog.docx* → Sprints Backlog
+- */Projeto_Academico\src\Documentação\PIM_4.doc* → Documentação acadêmica (PIM 4º semestre)
+- */Projeto_Academico/code* → Código-fonte do app
 
 
 
