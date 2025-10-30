@@ -52,8 +52,9 @@ export default function Criar_chamado() {
 
         setTimeout(() => {
           setLoading(false);
-          navigation.navigate("Chat_IA")
+          navigation.navigate("Menu");
         }, 1000);
+        return Alert.alert('Chamado criado co sucesso!');
       } catch (error) {
           console.log(error);
           setLoading(false);
@@ -75,12 +76,14 @@ export default function Criar_chamado() {
         <Text style={style.label}>
           SELECIONE A PRIORIDADE DO CHAMADO:
           {prioridadeError && <Text style={{ color: 'red' }}> *</Text>}
-          </Text>
-          <ButtonQuest 
-            icon={MaterialIcons} 
-            iconName="?" 
-            onPress={() => getChat()}/>
-          </View>
+        </Text>
+
+        <ButtonQuest 
+          icon={MaterialIcons} 
+          iconName="?" 
+          onPress={() => getChat()}/>
+        </View>
+
         <SelectMultiple
           options={['BAIXA', 'MÉDIA', 'ALTA']}
           selectedValue={prioridade}
@@ -89,6 +92,7 @@ export default function Criar_chamado() {
             setPrioridade(text);
             if (text) setprioridadeError(false);}}
         />
+
         <InputBig
             value={descrição}
             onChangeText={(text) => {
