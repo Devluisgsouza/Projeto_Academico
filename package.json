@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@react-navigation/native": "^7.1.19",
     "react-native-fs": "^2.20.0",
     "xlsx": "^0.18.5"
   }
