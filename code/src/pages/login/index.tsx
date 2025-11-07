@@ -4,7 +4,7 @@ import { style } from "./styles";
 import Logo from '../../assets/logo.png';
 import {MaterialIcons, Octicons} from '@expo/vector-icons';
 import { Input } from "../../components/input";
-import { Button, ButtonText, ButtonTextsenha } from "../../components/Button";
+import { Button, ButtonTextsenha } from "../../components/Button";
 import { useNavigation, NavigationProp } from '@react-navigation/native';
 import { CheckBox } from "../../components/CheckBox";
 

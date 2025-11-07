@@ -39,12 +39,11 @@ export default function Inicial() {
                 />
 
                 <Text style={style.Title}>CALLME APP</Text>
-                <Text style={style.SubTitle}>A SOLUÇÃO PARA OS SEUS PROBLEMAS TÉCNICO</Text>
+                <Text style={style.SubTitle}>A SOLUÇÃO PARA OS SEUS PROBLEMAS TÉCNICOS</Text>
                 <View style={{marginTop: 80}}>
                     <Button text="ENTRAR" onPress={() => getEntrar()} />
                 </View>
             </View> 
         </View>
     )
-
 }
