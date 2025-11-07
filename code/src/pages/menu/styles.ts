@@ -86,7 +86,7 @@ export const style = StyleSheet.create({
 
       blackSquareBig: {
         width: 355,
-        height: 80,
+        height: 65,
         backgroundColor: 'black',
         alignItems: 'center',
         marginTop: 40,

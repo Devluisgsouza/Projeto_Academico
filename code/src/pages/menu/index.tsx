@@ -46,7 +46,7 @@ export default function Menu(){
                 </View>
 
                 <View style={style.blackSquareBig}>
-                    <Text style={style.message}>Para criar um chamado utilize a versão web no seu computador!</Text>
+                    <Text style={style.message}>A soluçao para seus problemas!</Text>
                 </View>
 
             </View>
