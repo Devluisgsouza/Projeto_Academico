@@ -94,10 +94,6 @@ export default function Login (){
     
 
 
-    async function getcriar(){
-        navigation.navigate("criar_login")
-    }
-
     async function getsenha() {
         return Alert.alert('ATENÇÃO','Impossível recuperar senha! Entre em contato com o suporte técnico para alterá-la.')
     }
@@ -152,6 +148,7 @@ export default function Login (){
                 <View style={{marginTop: 21, marginStart: 30}}>
                     <Button text="ENTRAR" Loading={loading} onPress={() => getLogin()} />
                 </View>
+                
             </View>
             <View style={style.boxButtom}> 
             </View>

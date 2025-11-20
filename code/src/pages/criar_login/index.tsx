@@ -7,6 +7,7 @@ import { useNavigation, NavigationProp } from '@react-navigation/native';
 import {MaterialIcons, Octicons} from '@expo/vector-icons';
 import { Button} from "../../components/Button";
 import { CheckBox } from "../../components/CheckBox";
+import { useDatabase } from "../../database/useDatabase";
 
 
 
@@ -26,11 +27,12 @@ export function getSelectedUserType2() {
 
 export default function Criar_Login(){
     
+    const Database = useDatabase();
     const navigation = useNavigation<NavigationProp<any>>();
-    const [nome,setNome] = useState('')
+    const [name,setName] = useState('')
     const [re,setRe] = useState('')
     const [email,setEmail] = useState('');
-    const [password,setPassword] = useState('');
+    const [password_hash,setPassword_hash] = useState('');
     const [emailError, setEmailError] = useState(false);
     const [passwordError, setPasswordError] = useState(false);
     const [showPassword,setShowPassword] = useState(true);
@@ -59,18 +61,20 @@ export default function Criar_Login(){
                     setEmailError(false);
                 }
         
-                if (password === '') {
+                if (password_hash === '') {
                     setPasswordError(true);
                     hasError = true;
                 } else {
                     setPasswordError(false);
                 }
-                if (nome === '') {
+
+                if (name === '') {
                     setNomeError(true);
                     hasError = true;
                 } else {
                     setNomeError(false);
                 }
+
                 if (re === '') {
                     setReError(true);
                     hasError = true;
@@ -103,8 +107,17 @@ export default function Criar_Login(){
                 console.log(error);
                 setLoading(false);
             }
-        }
+            try{
+            if (isNaN(Number(re))) {
+                return Alert.alert('ATENÇÃO', 'O campo R.E. deve ser um número válido!')
+            }
 
+            const response = await Database.create({ name, email, password_hash, re: Number(re) } )
+            Alert.alert('Sucesso', 'Usuário criado com sucesso!')
+            }catch (error) {
+                console.log(error);
+        }
+    }
 
     return(
         <ScrollView style={style.container}>
@@ -124,9 +137,9 @@ export default function Criar_Login(){
             <View  style={style.boxMid}>
                 <CheckBox value={userType2} onChange={handleUserTypeChange2} />
                 <Input
-                value={nome}
+                value={name}
                 onChangeText={(text) => {
-                    setNome(text);
+                    setName(text);
                     if (text) setNomeError(false);
                 }}
                 title={
@@ -165,9 +178,9 @@ export default function Criar_Login(){
                     iconRightName="email"
                 />
                 <Input
-                    value={password}
+                    value={password_hash}
                     onChangeText={(text) => {
-                        setPassword(text);
+                        setPassword_hash(text);
                         if (text) setPasswordError(false);
                     }}
                     title={
@@ -183,7 +196,7 @@ export default function Criar_Login(){
                 />
                 </View >
                 <View style={style.Botton}>
-                    <Button text="CRIAR CONTA" Loading={loading} onPress={() => getCriarLogin()} />
+                    <Button text="CRIAR CONTA" Loading={loading} onPress={() => getCriarLogin() } />
                 </View>
         </ScrollView >  
     )
