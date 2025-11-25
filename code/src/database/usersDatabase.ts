@@ -8,13 +8,13 @@ export type Database = {
     re: number;
 }
 
-export function useDatabase() {
-    const database = useSQLiteContext()
+export function usersDatabase() {
+    const db = useSQLiteContext()
 
 
-    async function create(data: Omit<Database, "id">) {
-        const statement = await database.prepareAsync(
-            "NSERT INTO users (name, email, password_hash, re) VALUES ($name, $email, $password_hash, $re);"
+    async function create_users(data: Omit<Database, "id">) {
+        const statement = await db.prepareAsync(
+            "INSERT INTO users (name, email, password_hash, re) VALUES ($name, $email, $password_hash, $re);"
         )
 
         try {
@@ -32,7 +32,7 @@ export function useDatabase() {
           throw error
     }
 
-
     }
-    return { create }
+    return { create_users }
 }
+

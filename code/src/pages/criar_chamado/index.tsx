@@ -19,7 +19,7 @@ export default function Criar_chamado() {
   const [DescriçãoError, setDescriçãoError] = useState(false);
   const [tipo, setTipo] = useState('');
   const [tipoError, setTipoError] = useState(false);
-  
+
 
 
   async function getChamado() {

@@ -5,9 +5,9 @@ export async function initializeDatabase(database: SQLiteDatabase) {
         CREATE TABLE IF NOT EXISTS users (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT NOT NULL,
-            email TEXT UNIQUE NOT NULL
-            password_hash TEXT NOT NULL
-            re INTEGER NOT NULL
+            email TEXT UNIQUE NOT NULL,
+            password_hash TEXT NOT NULL,
+            re INTEGER NOT NULL,
         );
 
         CREATE TABLE IF NOT EXISTS chamados (
@@ -16,7 +16,7 @@ export async function initializeDatabase(database: SQLiteDatabase) {
             description TEXT,
             status TEXT NOT NULL,
             user_id INTEGER,
-            FOREIGN KEY (user_id) REFERENCES users(id)
+            FOREIGN KEY (user_id) REFERENCES users(id),
         );    
     `)
 }

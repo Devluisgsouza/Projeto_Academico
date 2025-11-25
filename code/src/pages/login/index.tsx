@@ -43,6 +43,11 @@ export default function Login (){
     };
 
 
+    async function get_criar(){
+        navigation.navigate('criar_login');
+    }
+        
+  
     async function getLogin() {
         try {
             let hasError = false;
@@ -148,6 +153,7 @@ export default function Login (){
                 <View style={{marginTop: 21, marginStart: 30}}>
                     <Button text="ENTRAR" Loading={loading} onPress={() => getLogin()} />
                 </View>
+                
                 
             </View>
             <View style={style.boxButtom}> 

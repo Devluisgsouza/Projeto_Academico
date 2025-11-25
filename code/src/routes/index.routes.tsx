@@ -77,11 +77,7 @@ export default function Routes(){
             <Stack.Screen
                 name="download_chamados"
                 component={Download_chamados}
-            />      
-            <Stack.Screen
-                name="Criar_login"
-                component={Criar_Login}
-            />           
+            />               
         </Stack.Navigator>
     )
 }

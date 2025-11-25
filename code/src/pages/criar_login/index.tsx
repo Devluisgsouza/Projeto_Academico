@@ -7,7 +7,7 @@ import { useNavigation, NavigationProp } from '@react-navigation/native';
 import {MaterialIcons, Octicons} from '@expo/vector-icons';
 import { Button} from "../../components/Button";
 import { CheckBox } from "../../components/CheckBox";
-import { useDatabase } from "../../database/useDatabase";
+import { usersDatabase } from "../../database/usersDatabase";
 
 
 
@@ -27,7 +27,7 @@ export function getSelectedUserType2() {
 
 export default function Criar_Login(){
     
-    const Database = useDatabase();
+    const Database = usersDatabase();
     const navigation = useNavigation<NavigationProp<any>>();
     const [name,setName] = useState('')
     const [re,setRe] = useState('')
@@ -108,12 +108,12 @@ export default function Criar_Login(){
                 setLoading(false);
             }
             try{
-            if (isNaN(Number(re))) {
-                return Alert.alert('ATENÇÃO', 'O campo R.E. deve ser um número válido!')
-            }
+                if (isNaN(Number(re))) {
+                    return Alert.alert('ATENÇÃO', 'O campo R.E. deve ser um número válido!')
+                }
 
-            const response = await Database.create({ name, email, password_hash, re: Number(re) } )
-            Alert.alert('Sucesso', 'Usuário criado com sucesso!')
+                const response = await Database.create_users({ name, email, password_hash, re: Number(re) } )
+                Alert.alert('Sucesso', 'Usuário criado com sucesso!')
             }catch (error) {
                 console.log(error);
         }
