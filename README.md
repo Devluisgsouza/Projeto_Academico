@@ -37,20 +37,6 @@ Com o uso de Inteligência Artificial, o sistema automatiza a classificação do
 
 ---
 
-
-##  📋 Backlog do Produto
-Para ver o backlog do produto, acesse: [Backlog do Produto](https://github.com/Devluisgsouza/Backlog-Produto)
-
----
-## 📈 Cronograma de Evolução
-Para ver o cronograma de evolução, acesse: [Cronograma de Evolução](https://github.com/Devluisgsouza/Cronograma-Evolucao)
-
----
-## 📅 Tabela das Sprints
-Para ver o tabela das sprints, acesse: [Tabela das Sprints](https://github.com/Devluisgsouza/Tabela-Sprints)
-
----
-
 ## 🛠️ Tecnologias Utilizadas  
 
 - [React Native](https://reactnative.dev/)  
@@ -62,16 +48,6 @@ Para ver o tabela das sprints, acesse: [Tabela das Sprints](https://github.com/D
 
 ---
 
-## 📂 Estrutura do Repositório  
-
-- */Projeto_Academico\src\Diagramas\Diagramas_UML.asta* → Diagramas UML
-- */Projeto_Academico\src\Documentação\Sprints_Backlog.docx* → Sprints Backlog
-- */Projeto_Academico\src\Documentação\PIM_4.doc* → Documentação acadêmica (PIM 4º semestre)
-- */Projeto_Academico/code* → Código-fonte do app
-
-
-
----
 
 ## 🚀 Como Rodar o Projeto  
 
@@ -102,17 +78,6 @@ $ npm install
 $ npm install -g expo-cli
 
 ```
-
-
----
-
-## 🗒 Documentação  
-
-- [📌 Diagramas UML](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/src/Diagramas/Diagramas_UML.asta)
-- [📌 Sprint Backlog](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/src/Documenta%C3%A7%C3%A3o/Sprints_Backlog.docx)
-- [📌 Documentação Completa](https://github.com/Devluisgsouza/Projeto_Academico/blob/main/src/Documentação/PIM_4.doc)  
-
-
 
 ## Devs do Projeto
 
